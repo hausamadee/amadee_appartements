@@ -5,3 +5,23 @@ html, body {
 body {
       background: #fafafa url("../img/wandern_nockberge-2500x1667.webp") no-repeat fixed center;
 }
+
+wrapper {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+}
