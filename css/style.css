@@ -1,12 +1,14 @@
 html, body {
-    margin: 0px; 
+    margin: 0px;
+    font-size: 1rem;
+    font-family: sans-serif;
 }
 
 body {
       background: #fafafa url("../img/wandern_nockberge-2500x1667.webp") no-repeat fixed center;
 }
 
-wrapper {
+#wrapper {
   position: fixed;
   top: 50%;
   left: 50%;
