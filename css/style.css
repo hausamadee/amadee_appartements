@@ -8,6 +8,14 @@ body {
       background: #fafafa url("../img/wandern_nockberge-2500x1667.webp") no-repeat fixed center;
 }
 
+a {
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
 #wrapper {
   position: fixed;
   top: 50%;
@@ -15,13 +23,21 @@ body {
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
   max-width: 75rem;
+  background-color: rgba(0,0,0,0.5);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 0rem;
+    padding: 2rem 1rem;
 }
 
 .icon {
@@ -45,10 +61,16 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
 }
 footer > dic {
+    display: inherit;
+    justify-content: center;
     width: 33%;   
 }
 footer > div:last-child {
+    display: inhert;
+    justify-content: flex-end;
     width: 100%;   
 }
