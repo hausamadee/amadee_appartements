@@ -49,6 +49,9 @@ main {
     border-radius: 40px;
     border: #fff 3px solid;
 }
+icon a {
+    text-decoration: none;   
+}
 .icon-svg {
     width: 50px;
     height: 50px;
@@ -65,13 +68,14 @@ footer {
     padding: 1rem;
     color: #fff;
 }
-footer > dic {
+footer > div {
     display: inherit;
     justify-content: center;
-    width: 33%;   
+    width: 33%; 
 }
 footer > div:last-child {
-    display: inhert;
+    display: inherit;
     justify-content: flex-end;
-    width: 100%;   
+    width: 100%;
+    height: 2rem;
 }
